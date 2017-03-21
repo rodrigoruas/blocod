@@ -35,7 +35,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: black;
+
 }
 
 .caract img {
@@ -47,15 +47,20 @@
 }
 
 .caract h3 {
+  font-weight: 700;
+  font-size: 30px;
   color: black;
-  font-family: $defaut-font;
-  font-size: 22px;
 }
 
 .caract p {
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 2.0em;
   color: #706F6F;
   font-size: 20px;
+}
+
+.carac-ind {
+  padding: 30px;
 }
 
 .solucoes-est {
@@ -68,6 +73,13 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
+}
+
+.solucoes-est p {
+  font-weight: 600;
+  line-height: 2.0em;
+  color: #706F6F;
+  font-size: 20px;
 }
 
 .bebo-logo {
