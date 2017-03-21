@@ -1,5 +1,5 @@
 
- <div class="banner" style="background-image: url(http://res.cloudinary.com/dib2nyadi/image/upload/c_scale,w_0.7/v1490107124/BlocoD/IMG_0433.jpg);">
+ <div class="banner" style="background-image: url(http://res.cloudinary.com/dib2nyadi/image/upload/c_scale,w_0.7/v1490107124/BlocoD/IMG_0433.jpg); width: : 100%;">
    <div class="banner-content">
      <h1>Some Stuff</h1>
      <p>Bla Bla Bla Bla Bla</p>
@@ -11,14 +11,17 @@
   <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6">
-          <h2>A BLOCO D</h2>
-          <p>Somos uma empresa de engenharia focada em levar ao mercado soluções estruturais industrializadas. Oferecemos produtos com engenharia pré-elaborada e formas padronizadas que dão respostas rápidas e econômicas às obras correntes.</p>
-          <p></p>
-          <p>Seguindo esse conceito, estamos trazendo para o Brasil o Sistema de Arcos BEBO® para obras de arte. A solução consegue unir a eficiência estrutural do arco aterrado com a eficiência construtiva dos elementos em concreto pré- fabricado.</p>
+          <div class="about-text">
+            <h2>A BLOCO D</h2>
+            <p>Somos uma empresa de engenharia focada em levar ao mercado soluções estruturais industrializadas. Oferecemos produtos com engenharia pré-elaborada e formas padronizadas que dão respostas rápidas e econômicas às obras correntes.</p>
+            <p></p>
+           <!--  <p>Seguindo esse conceito, estamos trazendo para o Brasil o Sistema de Arcos BEBO® para obras de arte. A solução consegue unir a eficiência estrutural do arco aterrado com a eficiência construtiva dos elementos em concreto pré- fabricado.</p> -->
+          </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
-
-          <%= cl_image_tag("BlocoD/Captura_de_Tela_2017-03-21_às_13.07.57.png", :width=>0.7, :crop=>"scale") %>
+          <div class="about-img">
+            <%= cl_image_tag("BlocoD/Captura_de_Tela_2017-03-21_às_13.07.57.png", :width=>0.7, :crop=>"scale") %>
+          </div>
         </div>
       </div>
   </div>
