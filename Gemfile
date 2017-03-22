@@ -15,7 +15,7 @@ gem 'redis'
 gem 'money-rails', '~>1'
 gem 'stripe'
 gem 'turbolinks'
-
+gem 'mail_form'
 
 gem 'sass-rails'
 gem 'jquery-rails'
@@ -26,6 +26,7 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 
 gem "pundit"
+
 
 group :development, :test do
   gem 'binding_of_caller'

@@ -64,12 +64,22 @@
           <%= cl_image_tag("BlocoD/logo.jpg", :width=>0.7, :crop=>"scale") %>
           <h3>O SISTEMA BEBO®</h3>
           <p>O Sistema de Arco BEBO® é uma solução para obras de arte composta por elementos de arco pré-moldados aterrados. As fôrmas dos pré-moldados e os detalhes construtivos são pré-definidos com vãos variando de 3,7 a 30 m. O desenvolvimento da tecnologia e as primeiras obras foram realizados na década de 1960. De lá para cá, mais de 1200 obras utilizando o sistema já foram executadas no mundo. A sede da equipe técnica da BEBO fica localizada em Zurique na Suíça.</p>
-          <span class=" show-bebo fa fa-angle-down cz-color-16777215"></span>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+          <div class="bebo-btn">
+            <%= link_to bebo_path do %>
+              <button type="button" class="btn btn-primary btn-lg btn-block section-btn">
+                  Saiba mais
+              </button>
+            <% end %>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="show-bebo">
+  <div class="contato" id="contact">
+    <h3>Entre em contato com a gente</h3>
 
   </div>
 </div>
