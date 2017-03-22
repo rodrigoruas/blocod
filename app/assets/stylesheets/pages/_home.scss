@@ -33,9 +33,14 @@
   max-width: 100%;
 }
 .about-text {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 450px;
+}
+
+.about-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .caract {
@@ -101,4 +106,31 @@
 
 .bebo-carac {
   padding: 30px;
+  text-align: center;
+}
+
+.bebo-btn {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contato {
+  background-color: #EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contato h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+
+.contato p {
+  font-weight: 600;
+  line-height: 2.0em;
+  color: #706F6F;
+  font-size: 20px
 }

@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def about
+  def bebo
   end
 
   def contact
