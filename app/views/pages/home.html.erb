@@ -1,19 +1,24 @@
-<div class="container">
-  <div class="banner" style="background-image: url(http://res.cloudinary.com/dib2nyadi/image/upload/c_scale,w_0.7/v1490107124/BlocoD/IMG_0433.jpg); width: : 100%;">
-    <div class="banner-content">
+<!-- <div class="container"> -->
+  <div class="banner" style="background-image: url(http://res.cloudinary.com/dib2nyadi/image/upload/c_scale,e_grayscale,w_0.7/e_contrast:37/v1490107124/BlocoD/IMG_0433.jpg); width: : 100%;">
+<!--
+<div class="banner" style="background-image: url(http://res.cloudinary.com/dib2nyadi/image/upload/c_scale,w_0.7/v1490107124/BlocoD/IMG_0433.jpg); width: : 100%;"> -->
+
+
+
+    <!-- <div class="banner-content">
       <h1>Some Stuff</h1>
       <p>Bla Bla Bla Bla Bla</p>
       <a class="btn btn-primary btn-lg">Saiba Mais</a>
-     </div>
+     </div> -->
   </div>
- </div>
+
 
 <div class="about" id="sobre">
   <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6">
           <div class="about-text">
-            <h2>A BLOCO D</h2>
+            <h2>QUEM SOMOS</h2>
             <p>Somos uma empresa de engenharia focada em levar ao mercado soluções estruturais industrializadas. Oferecemos produtos com engenharia pré-elaborada e formas padronizadas que dão respostas rápidas e econômicas às obras correntes.</p>
             <p></p>
            <!--  <p>Seguindo esse conceito, estamos trazendo para o Brasil o Sistema de Arcos BEBO® para obras de arte. A solução consegue unir a eficiência estrutural do arco aterrado com a eficiência construtiva dos elementos em concreto pré- fabricado.</p> -->
@@ -27,6 +32,45 @@
       </div>
   </div>
 </div>
+
+  <div class="banner2" style="background-image: url(http://res.cloudinary.com/dib2nyadi/image/upload/c_scale,e_grayscale,w_0.7/e_contrast:37/v1490107124/BlocoD/IMG_0433.jpg); width: : 100%;">
+
+  </div>
+
+
+
+  <div class="container">
+    <div class="solucoes-est" id="solucoes" style="/*vertical-align: middle*/;">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="bebo-carac">
+
+          <h3>O SISTEMA BEBO®</h3>
+          <p>O Sistema de Arco BEBO® é uma solução para obras de arte composta por elementos de arco pré-moldados aterrados. As fôrmas dos pré-moldados e os detalhes construtivos são pré-definidos com vãos variando de 3,7 a 30 m. O desenvolvimento da tecnologia e as primeiras obras foram realizados na década de 1960. De lá para cá, mais de 1200 obras utilizando o sistema já foram executadas no mundo. A sede da equipe técnica da BEBO fica localizada em Zurique na Suíça.</p>
+          <%= cl_image_tag("BlocoD/logo.jpg", :width=>0.4, :crop=>"scale") %>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+          <div class="bebo-btn">
+            <%= link_to bebo_path do %>
+              <button type="button" class="btn btn-primary btn-lg btn-block section-btn">
+                  Saiba mais
+              </button>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="banner2" style="background-image: url(http://res.cloudinary.com/dib2nyadi/image/upload/c_scale,e_grayscale,w_0.7/e_contrast:37/v1490107124/BlocoD/IMG_0433.jpg); width: : 100%;">
+
+  </div>
+<!--   <div class="contato" id="contact">
+    <h3>Entre em contato com a gente</h3>
+  </div> -->
 
 
 <div class="caract" id="diferenciais">
@@ -56,32 +100,6 @@
     </div>
   </div>
 </div>
-
-  <div class="container">
-    <div class="solucoes-est" id="solucoes" style="vertical-align: middle;">
-    <div class="row">
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-        <div class="bebo-carac">
-          <%= cl_image_tag("BlocoD/logo.jpg", :width=>0.7, :crop=>"scale") %>
-          <h3>O SISTEMA BEBO®</h3>
-          <p>O Sistema de Arco BEBO® é uma solução para obras de arte composta por elementos de arco pré-moldados aterrados. As fôrmas dos pré-moldados e os detalhes construtivos são pré-definidos com vãos variando de 3,7 a 30 m. O desenvolvimento da tecnologia e as primeiras obras foram realizados na década de 1960. De lá para cá, mais de 1200 obras utilizando o sistema já foram executadas no mundo. A sede da equipe técnica da BEBO fica localizada em Zurique na Suíça.</p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-          <div class="bebo-btn">
-            <%= link_to bebo_path do %>
-              <button type="button" class="btn btn-primary btn-lg btn-block section-btn">
-                  Saiba mais
-              </button>
-            <% end %>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="contato" id="contact">
-    <h3>Entre em contato com a gente</h3>
-  </div>
-</div>
+<!-- </div> -->
 
 
