@@ -3,7 +3,10 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 
+
+
 //= require_tree .
+
 
 
 $(document).ready(function(){
@@ -27,3 +30,5 @@ $(document).ready(function(){
   }, 9000);
 
 });
+
+
