@@ -12,13 +12,13 @@
   justify-content: space-between;
   font-family: $defaut-font;
   border: none;
-
+  margin-bottom: 0px;
 
 }
 
 /* Optional class to fix the navbar on top */
 .navbar-wagon-fixed {
-  position: fixed;
+  // position: fixed;
   left: 0px;
   top: 0px;
   z-index: 1;
@@ -150,6 +150,4 @@
     font-size: 18px;
   }
 
-#fixme {position: fixed;left: 0;right: 0; top:0;}
-/* prevent overlap */
-body{padding-top:70px;}
+

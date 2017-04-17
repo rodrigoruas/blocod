@@ -11,18 +11,18 @@
   // align-items: center;
   // justify-content: center;
   // text-align: center;
-  // padding: 30px;
+
 }
 
 .about h3 {
   font-weight: 700;
   font-size: 30px;
   color: black;
-  text-align: center;
+  // text-align: center;
 }
 
 .about p {
-  font-weight: 600;
+  font-weight: 300;
   line-height: 2.0em;
   color: #706F6F;
   // text-align: left;
@@ -32,9 +32,9 @@
   max-width: 100%;
 }
 .about-text {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 450px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+
 }
 
 .about-img {
@@ -93,7 +93,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .caract img {
@@ -108,6 +109,7 @@
   font-weight: 700;
   font-size: 30px;
   color: black;
+  text-align: left;
 }
 
 .caract p {
@@ -115,6 +117,7 @@
   line-height: 2.0em;
   color: #706F6F;
   font-size: 20px;
+  text-align: left;
 }
 
 
@@ -138,11 +141,16 @@
   text-align: center;
 }
 
+.solucoes-est h3 {
+  text-align: left;
+}
+
 .solucoes-est p {
   font-weight: 600;
   line-height: 2.0em;
   color: #706F6F;
   font-size: 20px;
+  text-align: left;
 }
 
 .bebo-logo {
@@ -160,6 +168,7 @@
   text-align: center;
   margin-bottom: 30px;
 }
+
 
 .contato {
   background-color: #EEEEEE;
@@ -185,9 +194,9 @@
 
 
 .ghost-button {
- color: #009688;
+ color: black;
  background: #fff;
- border: 1px solid #009688;
+ border: 3px solid #706F6F;
  font-size: 17px;
  padding: 7px 12px;
  font-weight: normal;
@@ -196,10 +205,17 @@
  display: inline-block;
  text-decoration: none;
  font-family: 'Open Sans', sans-serif;
- min-width: 120px;
+ min-width: 200px;
+ height: 60px;
 }
 
 .ghost-button:hover, .ghost-button:active {
  color:#fff;
- background:#009688;
+ background:#706F6F;
+}
+
+.quadrado {
+  height: 20px;
+  width: 20px;
+  background-color: red;
 }
