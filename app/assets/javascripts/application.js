@@ -1,6 +1,7 @@
 
 //= require jquery
 //= require jquery_ujs
+//= require jquery.slick
 //= require bootstrap-sprockets
 
 
@@ -29,12 +30,16 @@ $(document).ready(function(){
       $('.banner-bebo').css("background-image" , "url(http://res.cloudinary.com/dib2nyadi/image/upload/c_scale,e_grayscale,h_800/v1490107121/BlocoD/dsc00327.jpg)");
   }, 9000);
 
-});
+    $('.single-item').slick();
 
-var offset = 70;
+    var offset = 200;
 
-$('#sobre').onclick(function(event) {
+    $('#sobre').onclick(function(event) {
     event.preventDefault();
     $($(this).attr('href'))[0].scrollIntoView();
     scrollBy(0, -offset);
+
+  });
+
+
 });
