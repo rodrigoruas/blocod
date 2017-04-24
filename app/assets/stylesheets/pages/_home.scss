@@ -37,6 +37,88 @@
 
 }
 
+// sssss
+
+.about-formas {
+  background-color: white;
+  max-width: 100%;
+  font-size: 20px;
+  justify-content: right;
+
+}
+
+.about-formas h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+  // text-align: center;
+}
+
+.about-formas p {
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #706F6F;
+  // text-align: left;
+}
+
+.about-formas img {
+  max-width: 100%;
+}
+.about-formas-text {
+   margin-bottom: 50px;
+   margin-top: 50px;
+
+}
+
+
+.about-formas li:before{
+  content: url(http://res.cloudinary.com/dib2nyadi/image/upload/v1493041001/quadrado_e8smqq.png);
+  padding-right: 10px;
+
+}
+
+.about-formas li {
+  font-weight: 700;
+  line-height: 1.5em;
+  color:  black;
+}
+
+.formas-img {
+  justify-content: left;
+}
+
+.about-bebo {
+  background-color: white;
+  // height: 400px;
+  max-width: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // text-align: center;
+
+}
+
+.about-bebo h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+  // text-align: center;
+}
+
+.about-bebo p {
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #706F6F;
+  // text-align: left;
+}
+
+.about-bebo img {
+  max-width: 100%;
+  margin-top: 100px;
+}
+
+
 .about-img {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -120,6 +202,20 @@
   text-align: left;
 }
 
+.caract li {
+  text-align: left;
+  font-weight: 600;
+  line-height: 2.0em;
+  color: #706F6F;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+.caract li:before {
+  content: url(http://res.cloudinary.com/dib2nyadi/image/upload/v1493041001/quadrado_e8smqq.png);
+  padding-right: 5px;
+}
 
 .bebo-carac h3 {
   color: black;
@@ -213,6 +309,7 @@
  color:#fff;
  background:#706F6F;
 }
+
 
 .quadrado {
   height: 20px;
